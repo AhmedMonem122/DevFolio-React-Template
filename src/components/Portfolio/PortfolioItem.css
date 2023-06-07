@@ -1,0 +1,43 @@
+.work-box {
+  margin-bottom: 3rem;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #fff;
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.work-img {
+  display: block;
+  overflow: hidden;
+}
+
+.work-box img {
+  transition: all 1s;
+}
+
+.work-box:hover img {
+  transform: scale(1.3);
+}
+
+.work-content {
+  padding: 2rem 3% 1rem 4%;
+}
+
+.w-title {
+  font-size: 1.2rem;
+}
+
+.work-content .w-more {
+  color: #4e4e4e;
+  font-size: 0.8rem;
+}
+
+.work-content .w-more .w-category {
+  color: #0078ff;
+}
+
+.work-content .w-like {
+  font-size: 2.5rem;
+  color: #0078ff;
+  float: right;
+}

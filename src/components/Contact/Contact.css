@@ -1,0 +1,87 @@
+.contact-mf {
+  margin-top: 4rem;
+}
+
+.box-shadow-full {
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  .box-shadow-full {
+    padding: 3rem;
+  }
+}
+
+.form input,
+.form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.form input {
+  padding: 10px 15px;
+}
+
+.form textarea {
+  padding: 12px 15px;
+  margin-bottom: 0;
+}
+
+.form button[type="submit"] {
+  background: #0078ff;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 5rem;
+  font-size: 1.2rem;
+}
+
+.form button[type="submit"]:hover {
+  background: #3393ff;
+  box-shadow: 0 0 0 4px #cde1f8;
+}
+
+.list-ico svg {
+  color: #0078ff;
+  margin-right: 10px;
+}
+
+.socials {
+  padding: 1.5rem 0;
+}
+
+.socials ul li {
+  display: inline-block;
+}
+
+.socials .ico-circle {
+  height: 40px;
+  width: 40px;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  line-height: 1.6;
+  margin: 0 15px 0 0;
+  box-shadow: 0 0 0 3px #0078ff;
+  transition: all 500ms ease;
+  display: block;
+  color: #1e1e1e;
+}
+.socials .ico-circle:hover {
+  background-color: #0078ff;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+}
+
+.list-ico {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  line-height: 2;
+}
